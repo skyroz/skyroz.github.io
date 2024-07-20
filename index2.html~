@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <h1>Elias Turner's Art and Coding Portfolio</h1>
+  <br>
+  <title>Useful Links for information on Free Libre Software</title>
+   <a id="head2" href="index.html">Main</a>
+    <a id="alt2" href="index2.html">Useful Links for info on Free Libre Software</a>
+    <a id="contactpage2" href="contact.html">Contact Me</a>
+    <br>
+  <h2>Useful Links for information on Free Libre Software</h2>
+  <aside><i>Disclaimer: Please note that I am not affiliated with any of these non-profit organizations however I personally do endorse them</i></aside>
+</head>
+  <body>
+    <br>
+    <a href="https://fsf.org" target="_blank" id="one">
+      <img src="free software foundation.png" alt=""><h3 id="FSF"> The Free Software Foundation</h3>
+    </a>
+    <br>
+    <a href="https://eff.org" target="_blank" id="two">
+      <img src="EFF logo.png" alt="EFF logo.png"><h3 id="EFF">The Electronic Frontier Foundation</h3>
+    </a>
+    <br>
+    <a href="https://kde.org" target="_blank" id="three">
+      <img src="kde logo transparent.png" alt=""><h3 id="KDE">The KDE Community</h3>
+    </a>
+    <br>
+    <a href="https://gnu.org" taget="_blank" id="four">
+      <img src="gnu-logo.png" alt=""><h3 id="GNU">The GNU Operating System & the Free Software Movement</h3>
+    </a>
+    <br>
+    <p>Let's all do our part to support the free libre software community. If you are already a free software user--please consider donating to one of these organizations if you are financially able to do so. Thank you.</p>
+  <script src="main.js"></script>
+  </body>
+  <footer>The text of this web page is copyrighted by Elias L. Turner. The Javascript code is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPL v3 License</a></footer>
+
+</html>
+

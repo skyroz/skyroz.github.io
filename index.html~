@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1>Elias Turner's Art and Coding Portfolio</h1>
+    <br>
+    <meta charset="utf-8">
+    <title>Elias Turner's Portfolio</title>
+    <a id="head" href="">Main</a>
+    <a id="alt" href="index2.html">Useful Links for info on Free Libre Software</a>
+    <a id="contactpage" href="contact.html">Contact Me</a>
+  </head>
+  <body>
+    <h2 class="Heading"><i>I'm the GNU/Linux Hippy! Welcome aboard the mothership</i></h2>
+    <p>My name is Elias Turner and I am an artist, writer and web developer from El Cerrito, CA.
+      <br>
+      Currently, I reside in Vista, CA.</p>
+<br>
+     My hobbies include:
+<ul>
+  <li>Motorsports (watching, not driving)</li>
+      <li>Reading (both fiction and non-fiction)</li>
+      <li>Drawing</li>
+  <li>Writing</li>
+  </ul>
+      <br>
+      <p>
+	I started studying HTML, CSS and Javascript coding in December 2023. I am currently 44% percent complete with my Front End Engineering Professional Cert. course but I am to learn a lot more, including back-end engineering, APIs, and so on. My aim is to work less and make more--For the last two years, I've worked two jobs concurrently (at one point, 3 different jobs) and not had enough time to work on my drawing and writing--which I would like to be able to spend a lot more time on.
+      </p>  
+      <h3 class="Heading2">My Goal with Coding is to build the kind of life for myself that I want to live</h3>
+    <p>
+      I love art and coding equally, though I see them completely differently. See, the way I look at is is this: Art is creative expression, Code is a public service and the focus should be on the end user, not on what the people who are making it want to do. Code is a utility that we need to provide us opportunities to gain better control over our own lives with software that makes our lives easier and turns big problems into smaller, much more <i>manageable</i> ones
+    </p>
+    <h3>A sample of my writings and comic work</h3>
+    <h5>Content warning: All of these examples are recommended only for audiences 18+ and older. They include various adult themes and explore various societal issues</h5>
+    <ul class="pdf-files">
+      <b><a href="Sadshark and the Defenders of the Titanic The Complete Series digital book.pdf" alt="comic PDF file"><li>Sadshark and the Defenders of the Titanic (furry comic series)</li></a>
+      <br>
+      <a href="The American National Park Art Expo story.pdf" alt="my writing PDF"><li>The American National Park Expo</li></a>
+      <br>
+      <a href="Giganto kaj La Novo Mondo.pdf" alt="my writing PDF 2"><li>Giganto kaj La Novo Mondo (Giganto and the New World)</li></a></b>
+      <br>
+      </ul>
+</p>
+    <footer>The text of this web page is copyrighted by Elias L. Turner. The Javascript code is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPL v3 License</a></footer>
+</body>
+<script src="main.js"></script>
+</html>
