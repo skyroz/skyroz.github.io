@@ -56,8 +56,7 @@ h1.onclick = function toggleDarkMode(event) {
 
 head.addEventListener("click", () => {
 	if (inDarkMode) {
-		inDarkMode = true;
+		navigate(url, toggleDarkMode(""));
 	} else {
-		inDarkMode = false;
 	}
 }
