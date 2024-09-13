@@ -29,9 +29,7 @@ h1.onclick = function toggleDarkMode(event) {
     document.body.style.color = "white";
 	document.body.style.backgroundColor = "black";
       document.querySelector("html").style.backgroundImage = "url('La Costa de Sunny Isles desde el océano by K.B.L Luccia.jpg')";
-	    head.addEventListener("click", () => {
-		    inDarkMode = true;
-	    }      for (let element of anchorElements) {
+	for (let element of anchorElements) {
 	  element.style.color = "#BF8930";
 	  element.style.textShadow = "1px 1px black";
       }
@@ -39,6 +37,9 @@ h1.onclick = function toggleDarkMode(event) {
       document.querySelector("main").style.color = "#BF8930";
       document.querySelector("main").style.border = "4px solid #BF8930";
       document.querySelector("main").style.textShadow = "1px 1px #AD5315";
+	    head.addEventListener("click", () => {
+		    inDarkMode = true;
+	    }
   }
   else {
     document.body.style.removeProperty("color");
