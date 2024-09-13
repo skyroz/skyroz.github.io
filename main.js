@@ -29,6 +29,7 @@ h1.onclick = function toggleDarkMode(event) {
     document.body.style.color = "white";
 	document.body.style.backgroundColor = "black";
       document.querySelector("html").style.backgroundImage = "url('La Costa de Sunny Isles desde el océano by K.B.L Luccia.jpg')";
+	    navigate("click", inDarkMode)
       for (let element of anchorElements) {
 	  element.style.color = "#BF8930";
 	  element.style.textShadow = "1px 1px black";
