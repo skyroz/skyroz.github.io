@@ -16,6 +16,10 @@
 */
 
 let inDarkMode = false;
+if (inDarkMode = true) {
+	head.onclick = inDarkMode
+} else {
+}
 
 const h1 = document.querySelector("h1"); // get h1 elements
 
@@ -52,13 +56,3 @@ h1.onclick = function toggleDarkMode(event) {
   }
 
 };
-
-function darkModePersist() {
-	if (inDarkMode = true) {
-		document.querySelector("head").onclick = inDarkMode
-	}
-	else (inDarkMode = false) {
-		document.querySelector("head").onclick = !inDarkMode
-	}
-}
-darkModePersist();
