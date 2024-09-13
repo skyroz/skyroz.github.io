@@ -18,6 +18,7 @@
 let inDarkMode = false;
 
 const h1 = document.querySelector("h1"); // get h1 elements
+const head = document.querySelector("head");
 
 h1.onclick = function toggleDarkMode(event) {
 
@@ -50,9 +51,10 @@ h1.onclick = function toggleDarkMode(event) {
       document.querySelector("main").style.removeProperty("color");
       document.querySelector("main").style.removeProperty("border");
   }
+	if (inDarkMode) {
+		head.onclick = inDarkMode;
+	} else (!inDarkMode) {
+		head.onclick = !inDarkMode
+	}
 
 };
-
-if (inDarkMode == true) {
-	head.onclick = toggleDarkMode();
-}
