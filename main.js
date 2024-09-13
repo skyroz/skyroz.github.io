@@ -54,5 +54,5 @@ h1.onclick = function toggleDarkMode(event) {
 };
 
 if (inDarkMode == true) {
-	document.head.onclick = toggleDarkMode(event);
+	head.onclick = toggleDarkMode();
 }
