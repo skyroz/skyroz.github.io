@@ -16,10 +16,6 @@
 */
 
 let inDarkMode = false;
-if (inDarkMode = true) {
-	head.onclick = inDarkMode
-} else {
-}
 
 const h1 = document.querySelector("h1"); // get h1 elements
 
