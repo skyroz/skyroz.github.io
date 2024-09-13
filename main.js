@@ -59,4 +59,4 @@ head.addEventListener("click", () => {
 		navigate(url, toggleDarkMode(""));
 	} else {
 	}
-}
+});
