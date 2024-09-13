@@ -37,9 +37,6 @@ h1.onclick = function toggleDarkMode(event) {
       document.querySelector("main").style.color = "#BF8930";
       document.querySelector("main").style.border = "4px solid #BF8930";
       document.querySelector("main").style.textShadow = "1px 1px #AD5315";
-	    head.addEventListener("navigate", () => {
-		    inDarkMode = true;
-	    }
   }
   else {
     document.body.style.removeProperty("color");
@@ -56,3 +53,11 @@ h1.onclick = function toggleDarkMode(event) {
   }
 
 };
+
+head.addEventListener("click", () => {
+	if (inDarkMode) {
+		inDarkMode = true;
+	} else {
+		inDarkMode = false;
+	}
+}
