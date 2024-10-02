@@ -56,5 +56,5 @@ h1.onclick = function toggleDarkMode(event) {
 
 function changeTheme(theme) {
  document.documentElement.setAttribute(inDarkMode, toggleDarkMode)
- localStorage.setItem(inDarkMode, toggleDarkMode) // Set user theme on local storage
+ localStorage.setItem(inDarkMode, theme) // Set user theme on local storage
 }
