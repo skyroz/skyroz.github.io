@@ -17,26 +17,6 @@
 
 import { inDarkMode, toggleDarkMode } from "./main.js"
 
-document.addEventListener("DOMContentLoaded", function(event) { 
-
-window.onload = (event) => { //this makes the css load after the page
-    document.addEventListener(inDarkMode, function(event) { //i think this makes css load quicker
- const mediaQuery = window.matchMedia("(inDarkMode === true)")// First check on color scheme based on user local storage
- if(localStorage.getItem(inDarkMode) === toggleDarkMode || toggleDarkMode)
-  changeTheme(localStorage.getItem(inDarkMode))
- else {
-  if(mediaQuery.matches)
-   changeTheme(inDarkMode)
-  else
-   changeTheme(!inDarkMode)
- } // Add listener for real time user colour scheme preference change
- mediaQuery.addListener(e => {
-  if(e.matches)
-   changeTheme(inDarkMode)
-  else
-   changeTheme(!inDarkMode)
-  })
-});
 
 // Function to toggle the theme
 function changeTheme(theme) {
