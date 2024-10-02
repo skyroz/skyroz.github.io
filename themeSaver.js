@@ -15,32 +15,32 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>. 
  */
 
-import { inDarkMode, toggleDarkMode } from "./main"
+import { inDarkMode, toggleDarkMode } from "./main.js"
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
 window.onload = (event) => { //this makes the css load after the page
-    document.addEventListener("inDarkMode", function(event) { //i think this makes css load quicker
+    document.addEventListener(inDarkMode, function(event) { //i think this makes css load quicker
  const mediaQuery = window.matchMedia("(inDarkMode === true)")// First check on color scheme based on user local storage
- if(localStorage.getItem('inDarkMode') === 'toggleDarkMode' || 'toggleDarkMode')
-  changeTheme(localStorage.getItem('inDarkMode'))
+ if(localStorage.getItem(inDarkMode) === toggleDarkMode || toggleDarkMode)
+  changeTheme(localStorage.getItem(inDarkMode))
  else {
   if(mediaQuery.matches)
-   changeTheme('inDarkMode')
+   changeTheme(inDarkMode)
   else
-   changeTheme('!inDarkMode')
+   changeTheme(!inDarkMode)
  } // Add listener for real time user colour scheme preference change
  mediaQuery.addListener(e => {
   if(e.matches)
-   changeTheme('inDarkMode')
+   changeTheme(inDarkMode)
   else
-   changeTheme('!inDarkMode')
+   changeTheme(!inDarkMode)
   })
 });
 
 // Function to toggle the theme
 function changeTheme(theme) {
- document.documentElement.setAttribute('inDarkMode', toggleDarkMode)
- localStorage.setItem('inDarkMode', toggleDarkMode) // Set user theme on local storage
+ document.documentElement.setAttribute(inDarkMode, toggleDarkMode)
+ localStorage.setItem(inDarkMode, toggleDarkMode) // Set user theme on local storage
 }
-//});
+});
