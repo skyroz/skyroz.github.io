@@ -153,6 +153,10 @@ a {
     color: #3E3B1C;
     text-decoration: underline;
 }
+div.photoofme {
+	width: 346px !important;
+	height: 461px !important;
+}
 
 
 @media only screen (max-width: 720px),
