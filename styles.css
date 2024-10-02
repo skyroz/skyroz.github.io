@@ -158,6 +158,11 @@ img.photoofme {
 	height: 461px !important;
 }
 
+img.frontendcert {
+	width: 346px !important;
+	height: auto !important;
+}
+
 
 @media only screen (max-width: 720px),
 (max-height: 920px) {
